@@ -1,0 +1,41 @@
+
+        h2 {
+            color: darkgreen
+        }
+
+        body {
+            background-color: rgb(255, 400, 200);
+            font-size: 50%
+        }
+
+        #extinta {
+            background-color: rgb(170, 255, 131);
+        }
+
+        #descricao {
+            color: rgba(161, 19, 19, 0.918)
+        }
+
+        .list {
+            background-color: rgba(27, 161, 0, 0.842);
+            color: aliceblue;
+            font-weight: bold;
+            font-style: italic;
+            line-height: 40px;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        p {
+            font-family: monospace;
+            font-size: 2em;
+
+        }
+
+        ul {
+            font-size: 15px;
+        }
+
+        ol {
+            font-size: 15px;
+        }
