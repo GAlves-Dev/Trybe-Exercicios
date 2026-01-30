@@ -9,4 +9,4 @@ console.log(listaAnimais[1]);
 
 listaAnimais[2] = 'Lagosta';
 
-console.log(listaAnimais);
+console.log(listaAnimais.length);
