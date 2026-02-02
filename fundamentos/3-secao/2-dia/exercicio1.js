@@ -1,12 +1,7 @@
-const menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
-const menuServices = menu[1];
+const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-menu.push('Contato')
+for (index = 0; index < numbers.length; index += 1) {
+    console.log(numbers[index]);
+}
 
-console.log(menuServices);
-console.log(menu);
-
-
-
-//mds eu não sei usar logica básica!//
-//preste mais atenção nas lições//
+//Percorra o array imprimindo todos os valores contidos nele com a função console.log().
