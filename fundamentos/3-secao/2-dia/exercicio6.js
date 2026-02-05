@@ -4,11 +4,14 @@ let numerosImpares = []
 for (let index = 0; index < numbers.length; index += 1) {
     if (numbers[index] % 2 !== 0) {
         numerosImpares.push (numbers[index])
-    }
+    } 
 }
-const result = numerosImpares;
 
-console.log(result);
+if (numerosImpares === 0) {
+    console.log('Nenhum valor ímpar encontrado');
+} else {
+    console.log(`Existem ${numerosImpares.length} números ímpares`);
+}
 
 
 //Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “Nenhum valor ímpar encontrado”.
