@@ -1,4 +1,3 @@
-
 const trybeBankCustomers = ['Oliva', 'Nat', 'Gus'];
 
  function addCustomers(customers, newCustomers) {
