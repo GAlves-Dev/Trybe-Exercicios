@@ -22,4 +22,4 @@ console.log(addCustomers(trybeBankCustomers, ['Carol', 'Carolina', 'Adamastor'])
 //Dentro da função temos um Loop for, responsável por comparar a quantidade de elementos dentro do array e passar por cada um deles;
 //Dentro do Loop for existe um "if-else" que irá verificar se o elemento atual do loop é uma string ou não. Caso seja, ele irá adicionar o elemento atual do Array equivalente ao parâmetro "newCostumers" ao Array equivalente ao parâmetro "costumers". Caso contrário, ele irá retornar a mensagem "Todos os elementos devem ser strings.";
 //Ainda dentro da função, é retornado o Array "trybeBankCustomers" para que ele apareça no console.log;
-//Por fim é impresso o resultado da função trasendo os valores para os parâmetros sendo eles o Array inicial e um 
+//Por fim é impresso o resultado da função trasendo os valores para os parâmetros sendo eles o Array inicial e um Array mencionado dentro do próprio log;
