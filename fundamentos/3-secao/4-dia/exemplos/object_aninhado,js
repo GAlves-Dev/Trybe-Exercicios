@@ -1,0 +1,19 @@
+const account = {
+    agency: '0987',
+    bank: {
+        cod: '011',
+        id: 4,
+        name: 'SurinamiBank',
+    },
+    owner: 'Kim Kataguiri',
+};
+
+console.log(account.bank);
+console.log(account.agency);
+console.log(account.owner);
+
+//Se você quiser acessar o valor da propriedade name que está dentro da propriedade bank, será preciso acessar o objeto account primeiro, seguido do objeto bank, seguido da propriedade name:
+
+console.log(account.bank.name);
+
+//Manipulação de objeto dentro de objeto, que a partir de agora chamaremos de objetos aninhados, é algo muito comum no desenvolvimento de software, pois nos dá a possibilidade de representar melhor as informações.
